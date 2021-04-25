@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    background-color: #303030;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #afafaf;
+}
+
+img {
+    width: 80%;
+    border: none;
+    color: #303030;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-4 {
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-4 span {
+    color: #424242;
+}
